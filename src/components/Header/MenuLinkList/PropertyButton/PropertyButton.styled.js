@@ -54,14 +54,21 @@ export const PropertyButtonWrapper = styled.li`
 
     opacity: 0;
     visibility: hidden;
+    pointer-events: none;
 
     transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out,
       top 0.2s ease-in-out;
 
     &.active {
+      position: static;
       top: 100%;
       opacity: 1;
       visibility: visible;
+      pointer-events: all;
+
+      @media (min-width: 768px) {
+        position: absolute;
+      }
     }
 
     ul {

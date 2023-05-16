@@ -1,29 +1,17 @@
-import { Logo } from "../common/Logo/Logo"
+import { Container } from "../common/Container/Container";
+import { DesktopMenu } from "./DesktopMenu/DesktopMenu";
 import { HeaderStyle } from "./Header.styled"
-import { PropertyButton } from "./PropertyButton/PropertyButton";
+import { MobileMenuBar } from "./MobileMenu/MobileMenuBar";
 
 export const Header = () => {
 
 
     return (
         <HeaderStyle>
-            <nav>
-                <Logo />
-                <div className="buttons-wrapper">
-                    <ul className="header-link-list">
-                        <li>
-                            <a className="header-link"
-                                href="/">About Us</a> 
-                        </li>
-                        <li>
-                            <a className="header-link" href="/">Article</a>
-                        </li>
-                        <PropertyButton/>
-                        
-                    </ul>
-                    <button type="button" className="sign-up-btn">Sign Up!</button>
-                </div>
-            </nav>
+            <Container>
+                <DesktopMenu />
+                <MobileMenuBar/>
+            </Container>
         </HeaderStyle>
 
     );
