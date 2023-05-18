@@ -22,7 +22,7 @@ export const HeroSectionStyle = styled.section`
       width: 541px;
       height: 523px;
       position: absolute;
-      left: -30%;
+      left: -150px;
       top: 45%;
 
       z-index: -999;
