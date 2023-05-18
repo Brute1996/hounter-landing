@@ -1,18 +1,18 @@
 import styled from "@emotion/styled";
 
 export const MobileMenuBarStyle = styled.nav`
-  background-color: green;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(16, 185, 129, 0.95);
 
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 999999;
 
-  padding: 16px;
+  padding: 10px 30px;
 
   @media (min-width: 768px) {
     display: none;
@@ -26,6 +26,6 @@ export const MobileMenuBarStyle = styled.nav`
     background-color: transparent;
     border: none;
     font-size: 30px;
-    color: #f0f3fd;
+    color: #1b1c57;
   }
 `;

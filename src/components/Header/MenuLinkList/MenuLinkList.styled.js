@@ -24,5 +24,10 @@ export const MenuLinkListStyle = styled.ul`
     font-weight: 600;
     font-size: 14px;
     line-height: 1.28;
+
+    @media (min-width: 1200px) and (max-width: 1350px) {
+      color: #1b1c57;
+      border: 1px solid rgba(27, 28, 87, 0.5);
+    }
   }
 `;

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { ReactComponent as PropertyArowIcon} from "../icons/Property-arrow.svg"
+import { ReactComponent as PropertyArowIcon} from "../../../common/icons/arrow.svg"
 import { PropertyButtonWrapper } from "./PropertyButton.styled";
 
 

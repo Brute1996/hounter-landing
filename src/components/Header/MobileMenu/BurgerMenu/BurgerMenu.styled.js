@@ -1,12 +1,12 @@
 import styled from "@emotion/styled";
 
 export const BurgerMenuStyle = styled.div`
-  background-color: firebrick;
+  background-color: rgba(16, 185, 129, 0.9);
   position: fixed;
   top: -100%;
   left: 0;
   width: 100%;
-  height: calc(100% - 60px);
+  height: calc(100% - 48px);
   z-index: 999;
   overflow-y: scroll;
 
@@ -18,7 +18,7 @@ export const BurgerMenuStyle = styled.div`
   gap: 16px;
 
   &.active {
-    top: 68px;
+    top: 48px;
   }
 
   .sign-up-btn {

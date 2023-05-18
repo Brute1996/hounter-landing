@@ -2,7 +2,7 @@ import { ContainerStyle } from "./Container.styled"
 
 export const Container = ({children}) => {
     return (
-        <ContainerStyle>
+        <ContainerStyle className="container">
         {children}
         </ContainerStyle>
     )
