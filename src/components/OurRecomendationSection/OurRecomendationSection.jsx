@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FilterButtonList } from "./FilterButtonList/FilterButtonList";
 import { OurRecomendationSectionStyle } from "./OurRecomendationSection.style"
 import { RecomendationSlider } from "./RecomendationSlider/RecomendationSlider";
@@ -11,24 +11,30 @@ export const RecomendationSectionConext = React.createContext()
 export const OurRecomendationSection = () => {
     const [filterButtonNameClicked, setFilterButtonNameClicked] = useState("House");
     const [swiperRef, setSwiperRef] = useState(null);
+    const [slideChaged, setSlideChanged] = useState(null)
+
 
     return (
         <OurRecomendationSectionStyle>
             <Container>
                 <div className="section-top-side">
                     <SectionTitle>Featured House</SectionTitle>
-                    <FilterButtonList
-                        setFilterButtonNameClicked={setFilterButtonNameClicked} filterButtonNameClicked={filterButtonNameClicked}
-                    />
-                    <SliderButtons
-                        swiperRef={swiperRef}
-                        filterButtonNameClicked={filterButtonNameClicked}
+                    <div className="slider-manipulate">
+                        <FilterButtonList
+                            setFilterButtonNameClicked={setFilterButtonNameClicked} filterButtonNameClicked={filterButtonNameClicked}
+                        />
+                        <SliderButtons
+                            slideChaged={slideChaged}
+                            swiperRef={swiperRef}
+                            filterButtonNameClicked={filterButtonNameClicked}
                     
-                    />
+                        />
+                    </div>
                 </div>
                 <RecomendationSlider
                     filterButtonNameClicked={filterButtonNameClicked}
                     setSwiperRef={setSwiperRef}
+                    setSlideChanged={setSlideChanged}
                 />
             </Container>
         </OurRecomendationSectionStyle>

@@ -2,7 +2,7 @@ import { SliderButtonsWrapper } from "./SliderButtons.styled"
 import {ReactComponent as ArrowIcon} from "../../../common/icons/arrow.svg"
 import { useEffect, useState } from "react";
 
-export const SliderButtons = ({ swiperRef, filterButtonNameClicked }) => {
+export const SliderButtons = ({ swiperRef, filterButtonNameClicked, slideChaged }) => {
 
     const [onStart, setOnStart] = useState(false)
     const [onEnd, setOnEnd] = useState(false)
@@ -20,7 +20,8 @@ export const SliderButtons = ({ swiperRef, filterButtonNameClicked }) => {
 
         setSwiperPosition()
 
-    }, [swiperRef, filterButtonNameClicked]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [swiperRef, filterButtonNameClicked, slideChaged]);
 
     const handlePrevClick = () => {
         swiperRef.slidePrev();

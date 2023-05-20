@@ -7,7 +7,7 @@ import adCardsArr from "./adCards"
 import 'swiper/css';
 import { useEffect, useRef } from "react";
 
-export const RecomendationSlider = ({filterButtonNameClicked, setSwiperRef}) => {
+export const RecomendationSlider = ({filterButtonNameClicked, setSwiperRef, setSlideChanged}) => {
 
     const swiperRef = useRef(null);
 
@@ -29,9 +29,23 @@ export const RecomendationSlider = ({filterButtonNameClicked, setSwiperRef}) => 
     return (
         <RecomendationSliderWrapper>
             <Swiper
-                slidesPerView="auto"
+                  onSlideChange={(swiper) => setSlideChanged(swiper.activeIndex)}
                 spaceBetween={40}
                 ref={swiperRef}
+                breakpoints={{
+                    320: {
+                        slidesPerView:1
+                    },
+                    400: {
+                        slidesPerView:1.3
+                    },
+                    580: {
+                        slidesPerView:2
+                    },
+                                        764:{
+                slidesPerView:"auto",
+                    }
+                }}
             >
                 {filteredSlides().map(
                     ({ filterType,
