@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { FilterButtonList } from "./FilterButtonList/FilterButtonList";
 import { OurRecomendationSectionStyle } from "./OurRecomendationSection.style"
 import { RecomendationSlider } from "./RecomendationSlider/RecomendationSlider";
 import { Container } from "../common/Container/Container";
-import { SectionTitle } from "../common/SectionTitle/SectionTitle";
+import { SectionSlogan } from "../common/SectionSlogan/SectionSlogan";
 import { SliderButtons } from "./RecomendationSlider/SliderButtons/SliderButtons";
+import { SectionTitle } from "../common/SectionTitle/SectionTitle";
+
 
 export const RecomendationSectionConext = React.createContext()
 
@@ -17,25 +19,28 @@ export const OurRecomendationSection = () => {
     return (
         <OurRecomendationSectionStyle>
             <Container>
-                <div className="section-top-side">
-                    <SectionTitle>Featured House</SectionTitle>
-                    <div className="slider-manipulate">
-                        <FilterButtonList
-                            setFilterButtonNameClicked={setFilterButtonNameClicked} filterButtonNameClicked={filterButtonNameClicked}
-                        />
-                        <SliderButtons
-                            slideChaged={slideChaged}
-                            swiperRef={swiperRef}
-                            filterButtonNameClicked={filterButtonNameClicked}
+                <SectionTitle>Our Recommendation</SectionTitle>
+                <div className="section-content">
+                    <div className="section-top-side">
+                        <SectionSlogan>Featured House</SectionSlogan>
+                        <div className="slider-manipulate">
+                            <FilterButtonList
+                                setFilterButtonNameClicked={setFilterButtonNameClicked} filterButtonNameClicked={filterButtonNameClicked}
+                            />
+                            <SliderButtons
+                                slideChaged={slideChaged}
+                                swiperRef={swiperRef}
+                                filterButtonNameClicked={filterButtonNameClicked}
                     
-                        />
+                            />
+                        </div>
                     </div>
+                    <RecomendationSlider
+                        filterButtonNameClicked={filterButtonNameClicked}
+                        setSwiperRef={setSwiperRef}
+                        setSlideChanged={setSlideChanged}
+                    />
                 </div>
-                <RecomendationSlider
-                    filterButtonNameClicked={filterButtonNameClicked}
-                    setSwiperRef={setSwiperRef}
-                    setSlideChanged={setSlideChanged}
-                />
             </Container>
         </OurRecomendationSectionStyle>
     )

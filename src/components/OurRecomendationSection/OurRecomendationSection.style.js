@@ -2,17 +2,20 @@ import styled from "@emotion/styled";
 
 export const OurRecomendationSectionStyle = styled.section`
   .container {
-    padding: 0 30px;
+    padding-right: 0;
+  }
 
-    @media (min-width: 1200px) {
-    }
+  .section-content {
+    padding-left: 30px;
+    padding-right: 30px;
+
     @media (min-width: 1350px) {
-      padding-left: 160px;
+      padding-left: 40px;
       padding-right: 0;
     }
   }
 
-  .section-title {
+  .section-slogan {
     text-align: center;
     @media (min-width: 764px) {
       text-align: start;

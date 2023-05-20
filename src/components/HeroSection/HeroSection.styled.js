@@ -9,6 +9,7 @@ export const HeroSectionStyle = styled.section`
     flex-direction: column-reverse;
 
     align-items: center;
+    padding-right: 0;
 
     @media (min-width: 1200px) {
       align-items: normal;
