@@ -3,8 +3,14 @@ import styled from "@emotion/styled";
 export const OurRecomendationSectionStyle = styled.section`
   .container {
     padding-right: 0;
-  }
 
+    .section-title {
+      padding-left: 30px;
+      @media (min-width: 1200px) {
+        padding: 0;
+      }
+    }
+  }
   .section-content {
     padding-left: 30px;
     padding-right: 30px;

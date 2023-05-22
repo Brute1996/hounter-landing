@@ -27,7 +27,7 @@ import {
   avatar12,
   avatar13,
   avatar14,
-} from "../images";
+} from "../../common/images";
 
 const adCardsArr = [
   {

@@ -41,7 +41,7 @@ export const SlideItem = ({ filterType, image, labelType, title, price, sellerAv
             <p className="price" aria-label="price">{price}</p>
 
             <div className="seller-wrapper" aria-label="seller">
-                <img className="seller-avatar" src={sellerAvatar} alt="seller avatar" />
+                <img className="seller-avatar" src={sellerAvatar} alt={`${sellerName} avatar`} />
                 <div>
                     <p className="seller-name" aria-label="seller name">{sellerName}</p>
                     <p className="seller-location" aria-label="seller location">{sellerLocation}</p>
