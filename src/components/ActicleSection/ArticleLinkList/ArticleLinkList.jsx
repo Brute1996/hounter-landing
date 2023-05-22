@@ -1,4 +1,4 @@
-import { articleImg1, articleImg2, articleImg3, avatar1, avatar15, avatar17 } from "../../common/images";
+import { articleImg1, articleImg2, articleImg3, avatar1, avatar15, avatar17 } from "../../../images";
 import { ArticleLink } from "../ArticleLink/ArticleLink"
 import { ArticleLinkListWrapper } from "./ArticleLinkList.styled"
 

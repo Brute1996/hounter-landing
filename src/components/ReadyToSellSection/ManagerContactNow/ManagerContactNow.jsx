@@ -1,4 +1,4 @@
-import { avatar8 } from "../../common/images"
+import { avatar8 } from "../../../images"
 import { Call } from "../icons"
 import { ManagerContactNowWrapper } from "./ManagerContactNow.styled"
 

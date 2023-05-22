@@ -1,5 +1,5 @@
 import { SliderButtonsWrapper } from "./SliderButtons.styled"
-import {ReactComponent as ArrowIcon} from "../../../common/icons/arrow.svg"
+import {ReactComponent as ArrowIcon} from "../../../../icons/arrow.svg"
 import { useEffect, useState } from "react";
 
 export const SliderButtons = ({ swiperRef, filterButtonNameClicked, slideChaged }) => {

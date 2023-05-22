@@ -1,4 +1,4 @@
-import { avatar1, avatar15, avatar16, ourRev1Img, ourRev2Img, ourRev3Img } from "../../common/images"
+import { avatar1, avatar15, avatar16, ourRev1Img, ourRev2Img, ourRev3Img } from "../../../images"
 import { OurReviewItem } from "../OurReviewItem/OurReviewItem"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { OurReviewSliderWrapper } from "./OurReviewSlider.styled";

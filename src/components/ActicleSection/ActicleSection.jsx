@@ -1,7 +1,7 @@
 import { Container } from "../common/Container/Container";
 import { SectionSlogan } from "../common/SectionSlogan/SectionSlogan"
 import { SectionTitle } from "../common/SectionTitle/SectionTitle"
-import { avatar18, bigArticleImg } from "../common/images";
+import { avatar18, bigArticleImg } from "../../images";
 import { ActicleSectionWrapper } from "./ActicleSection.styled"
 import { ArticleLinkList } from "./ArticleLinkList/ArticleLinkList";
 import { BigArticleLink } from "./BigArticleLink/BigArticleLink";

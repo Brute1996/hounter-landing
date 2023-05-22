@@ -1,5 +1,5 @@
 import { ReactComponent as SearchIcon } from "../icons/search-icon.svg";
-import { ReactComponent as ArrowIcon } from "../../common/icons/arrow.svg"
+import { ReactComponent as ArrowIcon } from "../../../icons/arrow.svg"
 import { HeroSearchWrapper } from "./HeroSearch.styled";
 
 export const HeroSearch = () => {
