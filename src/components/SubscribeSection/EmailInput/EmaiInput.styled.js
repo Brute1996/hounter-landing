@@ -1,17 +1,16 @@
 import styled from "@emotion/styled";
 
-export const HeroSearchWrapper = styled.div`
+export const EmaiInputWrapper = styled.div`
   display: flex;
   justify-content: center;
-  margin-bottom: 32px;
 
   form {
     label {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      border: 1px solid #e0e3eb;
       border-radius: 32px;
+      background-color: #fff;
       padding: 4px;
 
       transition: border 0.5s ease-in-out;
@@ -37,7 +36,7 @@ export const HeroSearchWrapper = styled.div`
       }
 
       @media (min-width: 1200px) {
-        width: 303px;
+        width: 283px;
       }
 
       &:focus {
@@ -65,12 +64,6 @@ export const HeroSearchWrapper = styled.div`
 
       @media (min-width: 768px) {
         padding: 13px 16px;
-      }
-
-      .arrow-icon {
-        width: 24px;
-        height: 24px;
-        rotate: -90deg;
       }
     }
   }

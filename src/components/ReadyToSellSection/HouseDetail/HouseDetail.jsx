@@ -1,4 +1,5 @@
-import { BathIcon, BedIcon, CarGarageIcon, StairsIcon } from "../icons"
+
+import { BathIcon, BedIcon, CarGarageIcon, StairsIcon } from "../../../icons"
 import { HouseDetailWrapper } from "./HouseDetail.styled"
 import { HouseDetailItem } from "./HouseDetailList/HouseDetailItem"
 

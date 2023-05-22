@@ -1,5 +1,6 @@
+import { ApartmentIcon, HouseIcon, VilaIcon } from "../../../icons";
 import { FilterButton } from "./FilterButton/FilterButton"
-import { HouseIcon, VilaIcon, ApartmentIcon } from "../icons"
+
 import { FilterButtonListWrapper } from "./FilterButtonList.styled"
 
 export const FilterButtonList = ({setFilterButtonNameClicked, filterButtonNameClicked}) => {

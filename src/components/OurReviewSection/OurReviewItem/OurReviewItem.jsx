@@ -1,4 +1,5 @@
-import {ReactComponent as StarIcon} from "../icons/star.svg"
+
+import { StarIcon } from "../../../icons";
 import { OurReviewItemWrapper } from "./OurReviewItem.styled"
 
 export const OurReviewItem = ({

@@ -1,5 +1,6 @@
+import { FireIcon, NewHouseIcon, WalletIcon } from "../../../../icons";
 import { SlideItemWrapper } from "./SlideItem.styled"
-import { NewHouseIcon, FireIcon, WalletIcon } from "../../icons";
+
 
 export const SlideItem = ({ filterType, image, labelType, title, price, sellerAvatar, sellerName, sellerLocation }) => {
 

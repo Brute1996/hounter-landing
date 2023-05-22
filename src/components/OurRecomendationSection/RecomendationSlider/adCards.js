@@ -134,7 +134,7 @@ const adCardsArr = [
     filterType: "Apartment",
     image: apartment2,
     labelType: "popular",
-    title: "Historic Brownstone Apartment",
+    title: "Brownstone Apartment",
     price: "$ 22.000.000",
     sellerAvatar: avatar10,
     sellerName: "Emily Johnson",

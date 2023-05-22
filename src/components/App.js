@@ -5,6 +5,7 @@ import { OurRecomendationSection } from "./OurRecomendationSection/OurRecomendat
 import { ReadyToSellSection } from "./ReadyToSellSection/ReadyToSellSection";
 import { OurReviewSection } from "./OurReviewSection/OurReviewSection";
 import { ActicleSection } from "./ActicleSection/ActicleSection";
+import { SubscribeSection } from "./SubscribeSection/SubscribeSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <ReadyToSellSection />
         <OurReviewSection />
         <ActicleSection />
+        <SubscribeSection />
       </main>
     </div>
   );

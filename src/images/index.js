@@ -37,6 +37,11 @@ import articleImg1 from "./article-img-1.jpg";
 import articleImg2 from "./article-img-2.jpg";
 import articleImg3 from "./article-img-3.jpg";
 import bigArticleImg from "./big-article-img.jpg";
+import subBg from "./sub-bg.jpg";
+import subBgImage1 from "./sub-bg-img-1.jpg";
+import subBgImage2 from "./sub-bg-img-2.jpg";
+import subBgImage3 from "./sub-bg-img-3.jpg";
+import subBgImage4 from "./sub-bg-img-4.jpg";
 
 export {
   house1,
@@ -78,4 +83,9 @@ export {
   articleImg2,
   articleImg3,
   bigArticleImg,
+  subBg,
+  subBgImage1,
+  subBgImage2,
+  subBgImage3,
+  subBgImage4,
 };

@@ -1,0 +1,72 @@
+import { avatar1, avatar15, avatar3, avatar5, subBgImage1, subBgImage2, subBgImage3, subBgImage4 } from "../../../images";
+import { BgImage } from "../SubBgImageTemplate/SubBgImage";
+
+export const SubBgImages = () => {
+    return (
+        <>
+            <BgImage
+                top="38px"
+                left="44px"
+                width="81px"
+                height="81px"
+                borderRadius="24px"
+                image={subBgImage1}
+            />
+            <BgImage
+                top="71px"
+                left="204px"
+                width="36px"
+                height="36px"
+                borderRadius="50%"
+                image={avatar3}
+            />
+            <BgImage
+                top="173px"
+                left="67px"
+                width="36px"
+                height="36px"
+                borderRadius="50%"
+                image={avatar1}
+            />
+            <BgImage
+                top="178px"
+                left="195px"
+                width="54px"
+                height="54px"
+                borderRadius="24px"
+                image={subBgImage2}
+            />
+            <BgImage
+                top="44px"
+                right="200px"
+                width="70px"
+                height="70px"
+                borderRadius="24px"
+                image={subBgImage3}
+            />
+            <BgImage
+                top="107px"
+                right="62px"
+                width="36px"
+                height="36px"
+                borderRadius="50%"
+                image={avatar5}
+            />
+            <BgImage
+                top="142px"
+                right="200px"
+                width="36px"
+                height="36px"
+                borderRadius="50%"
+                image={avatar15}
+            />
+            <BgImage
+                top="197px"
+                right="73px"
+                width="55px"
+                height="55px"
+                borderRadius="50%"
+                image={subBgImage4}
+            /></>
+    )
+};

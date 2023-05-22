@@ -1,7 +1,6 @@
-import icons from "../icons"
+import { AirbnbIcon, TiketComIcon, TravelokaIcon, TripadvisorIcon } from "../../../icons";
 import { HeroPartnershipWrapper } from "./HeroPartnership.styled";
 
-const { AirbnbIcon, TiketComIcon, TravelokaIcon, TripadvisorIcon } = icons;
 
 export const HeroPartnership = () => {
     return (
