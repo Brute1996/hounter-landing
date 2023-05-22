@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const ArticleLinkWrapper = styled.li`
   display: flex;
+  align-items: center;
   gap: 32px;
 
   .article-image {

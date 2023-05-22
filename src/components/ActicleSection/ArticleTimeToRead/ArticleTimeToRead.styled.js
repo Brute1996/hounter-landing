@@ -1,8 +1,7 @@
 import styled from "@emotion/styled";
 
-export const ArticleTimeToReadStyle = styled.div`
+export const ArticleTimeToReadStyle = styled.p`
   display: flex;
-  align-items: center;
   gap: 12px;
 
   font-weight: 400;
