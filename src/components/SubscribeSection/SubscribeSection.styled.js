@@ -7,6 +7,7 @@ export const SubscribeSectionWrapper = styled.section`
     padding-top: 65px;
     padding-bottom: 65px;
     border-radius: 32px;
+    max-width: 1200px;
 
     background-image: url(${subBg});
     background-repeat: no-repeat;

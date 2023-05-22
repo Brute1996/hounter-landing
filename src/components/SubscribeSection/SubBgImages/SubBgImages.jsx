@@ -46,14 +46,14 @@ export const SubBgImages = () => {
             />
             <BgImage
                 top="107px"
-                right="62px"
+                right="82px"
                 width="36px"
                 height="36px"
                 borderRadius="50%"
                 image={avatar5}
             />
             <BgImage
-                top="142px"
+                top="143px"
                 right="200px"
                 width="36px"
                 height="36px"
