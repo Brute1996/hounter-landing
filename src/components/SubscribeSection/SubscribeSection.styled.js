@@ -4,8 +4,7 @@ import { subBg } from "../../images";
 export const SubscribeSectionWrapper = styled.section`
   .container {
     position: relative;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding: 65px 0;
     border-radius: 32px;
     max-width: 1200px;
 

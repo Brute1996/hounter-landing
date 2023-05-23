@@ -1,9 +1,7 @@
 import styled from "@emotion/styled";
-import avatar from "../image/avatar.jpg";
-import avatar2 from "../image/avatar2.jpg";
-import avatar3 from "../image/avatar3.jpg";
 import houseImg from "../image/house.jpg";
 import avatar4 from "../image/avatar4.jpg";
+import { avatar1, avatar14, avatar16 } from "../../../images";
 
 export const SloganListStyle = styled.ul`
   width: 100%;
@@ -69,7 +67,7 @@ export const SloganListStyle = styled.ul`
       top: 0;
       left: 0;
 
-      background-image: url(${avatar});
+      background-image: url(${avatar16});
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 50% 50%;
@@ -77,7 +75,7 @@ export const SloganListStyle = styled.ul`
       &:nth-of-type(n + 2) {
         transform: translateX(50%);
 
-        background-image: url(${avatar2});
+        background-image: url(${avatar14});
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 5%;
@@ -85,7 +83,7 @@ export const SloganListStyle = styled.ul`
 
       &:nth-of-type(n + 3) {
         transform: translateX(100%);
-        background-image: url(${avatar3});
+        background-image: url(${avatar1});
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 20%;

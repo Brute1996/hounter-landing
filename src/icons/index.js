@@ -18,6 +18,9 @@ import { ReactComponent as BedIcon } from "./bed.svg";
 import { ReactComponent as CarGarageIcon } from "./car-garage.svg";
 import { ReactComponent as StairsIcon } from "./stairs-with-handrail.svg";
 import { ReactComponent as Call } from "./call.svg";
+import { ReactComponent as FacebookIcon } from "./brandico_facebook.svg";
+import { ReactComponent as TwitterIcon } from "./twitter-outlined.svg";
+import { ReactComponent as InstagramIcon } from "./instagram-filled.svg";
 
 export {
   ArrowIcon,
@@ -40,4 +43,7 @@ export {
   StairsIcon,
   CarGarageIcon,
   Call,
+  FacebookIcon,
+  TwitterIcon,
+  InstagramIcon,
 };

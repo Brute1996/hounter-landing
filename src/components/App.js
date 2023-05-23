@@ -6,6 +6,7 @@ import { ReadyToSellSection } from "./ReadyToSellSection/ReadyToSellSection";
 import { OurReviewSection } from "./OurReviewSection/OurReviewSection";
 import { ActicleSection } from "./ActicleSection/ActicleSection";
 import { SubscribeSection } from "./SubscribeSection/SubscribeSection";
+import { Footer } from "./Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <ActicleSection />
         <SubscribeSection />
       </main>
+      <Footer />
     </div>
   );
 }
