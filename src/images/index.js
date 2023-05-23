@@ -22,6 +22,8 @@ import avatar15 from "./avatar15.jpg";
 import avatar16 from "./avatar16.jpg";
 import avatar17 from "./avatar17.jpg";
 import avatar18 from "./avatar18.jpg";
+import avatar19 from "./avatar19.jpg";
+import heroBgImage from "./hero-bg-img.jpg";
 import villa1 from "./villa1.jpg";
 import villa2 from "./villa2.jpg";
 import villa3 from "./villa3.jpg";
@@ -53,6 +55,7 @@ import readyToSellImg7 from "./ready-to-sell-img-7.jpg";
 import readyToSellImg8 from "./ready-to-sell-img-8.jpg";
 
 export {
+  heroBgImage,
   house1,
   house2,
   house3,
@@ -77,6 +80,7 @@ export {
   avatar16,
   avatar17,
   avatar18,
+  avatar19,
   villa1,
   villa2,
   villa3,

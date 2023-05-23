@@ -67,8 +67,8 @@ export const GallerySlider = () => {
                 <SwiperSlide>
                     <GallerySliderImage
                         image={readyToSellImg5}
-                        width="132px"
-                        height="87px"
+                        width="122px"
+                        height="112px"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -89,7 +89,7 @@ export const GallerySlider = () => {
                     <GallerySliderImage
                         image={readyToSellImg8}
                         width="100px"
-                        height="80px"
+                        height="90px"
                     />
                 </SwiperSlide>
             </Swiper>

@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import BgImage from "./image/bg-img.jpg";
+import { heroBgImage } from "../../images";
 
 export const HeroSectionStyle = styled.section`
   .container {
@@ -107,7 +107,7 @@ export const HeroSectionStyle = styled.section`
         #0c1537 -6.09%,
         rgba(12, 21, 55, 0) 32.63%
       ),
-      url(${BgImage});
+      url(${heroBgImage});
     background-repeat: no-repeat;
     background-size: cover;
 

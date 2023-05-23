@@ -1,7 +1,11 @@
 import styled from "@emotion/styled";
-import houseImg from "../image/house.jpg";
-import avatar4 from "../image/avatar4.jpg";
-import { avatar1, avatar14, avatar16 } from "../../../images";
+import {
+  avatar1,
+  avatar14,
+  avatar16,
+  avatar19,
+  bigArticleImg,
+} from "../../../images";
 
 export const SloganListStyle = styled.ul`
   width: 100%;
@@ -95,7 +99,7 @@ export const SloganListStyle = styled.ul`
     width: 56px;
     height: 56px;
 
-    background-image: url(${houseImg});
+    background-image: url(${bigArticleImg});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -105,7 +109,7 @@ export const SloganListStyle = styled.ul`
 
   .people-looking {
     .avatar-item {
-      background-image: url(${avatar4});
+      background-image: url(${avatar19});
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 50% 50%;
