@@ -11,17 +11,17 @@ export const ReadyToSellSection = () => {
     return (
         <ReadyToSellSectionWrapper>
             <Container>
-                <SectionTitle>Ready to Sell!</SectionTitle>
-                <div className="section-content-wrapper">
-                    <div className="left-side">
+                <div className="section-left-side">
+                    <SectionTitle>Ready to Sell!</SectionTitle>
+                    <div className="house-info">
                         <SectionSlogan>Let’s tour and see our house!</SectionSlogan>
                         <SectionText>Houses recommended by our partners that have been curated to become the home of your dreams!</SectionText>
                         <HouseDetail />
                         <UserContactNow />
                     </div>
-                    <HouseGallery/>
                 </div>
-                
+
+                <HouseGallery />
             </Container>
         </ReadyToSellSectionWrapper>
     )

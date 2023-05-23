@@ -15,7 +15,4 @@ export const GallerySliderWrapper = styled.div`
     width: auto;
     display: inline-flex;
   }
-
-  .swiper-slide-active {
-  }
 `;

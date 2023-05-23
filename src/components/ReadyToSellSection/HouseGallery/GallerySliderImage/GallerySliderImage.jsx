@@ -1,4 +1,5 @@
 import * as basicLightbox from 'basiclightbox'
+import { GallerySliderImageStyle } from './GallerySliderImage.styled';
 
 
 
@@ -16,21 +17,16 @@ export const GallerySliderImage = ({ image, width, height }) => {
     };
 
     return (
-        <div
+        <GallerySliderImageStyle
             onClick={openModalWithImg}
             style={
                 {
-                    cursor: "zoom-in",
                     backgroundImage: `url(${image})`,
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    backgroundPosition: "50% 50%",
-                    borderRadius:"4px",
                     width,
                     height,
                 }
             }
             aria-label="slider image">
-        </div>
+        </GallerySliderImageStyle>
     )
 }

@@ -2,17 +2,18 @@ import styled from "@emotion/styled";
 
 export const ReadyToSellSectionWrapper = styled.section`
   .container {
+    display: flex;
+    justify-content: space-between;
     padding-right: 0;
   }
 
-  .section-content-wrapper {
+  .house-info {
+    max-width: 524px;
     padding-left: 40px;
-    display: flex;
-    justify-content: space-between;
   }
 
-  .left-side {
-    max-width: 524px;
+  .section-title {
+    margin-top: 28px;
   }
 
   .section-slogan {
