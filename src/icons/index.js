@@ -21,6 +21,7 @@ import { ReactComponent as Call } from "./call.svg";
 import { ReactComponent as FacebookIcon } from "./brandico_facebook.svg";
 import { ReactComponent as TwitterIcon } from "./twitter-outlined.svg";
 import { ReactComponent as InstagramIcon } from "./instagram-filled.svg";
+import { ReactComponent as PlayerStartIcon } from "./player-start.svg";
 
 export {
   ArrowIcon,
@@ -46,4 +47,5 @@ export {
   FacebookIcon,
   TwitterIcon,
   InstagramIcon,
+  PlayerStartIcon,
 };

@@ -42,6 +42,15 @@ import subBgImage1 from "./sub-bg-img-1.jpg";
 import subBgImage2 from "./sub-bg-img-2.jpg";
 import subBgImage3 from "./sub-bg-img-3.jpg";
 import subBgImage4 from "./sub-bg-img-4.jpg";
+import videoPreviewImage from "./img-video-preview.jpg";
+import readyToSellImg1 from "./ready-to-sell-img-1.jpg";
+import readyToSellImg2 from "./ready-to-sell-img-2.jpg";
+import readyToSellImg3 from "./ready-to-sell-img-3.jpg";
+import readyToSellImg4 from "./ready-to-sell-img-4.jpg";
+import readyToSellImg5 from "./ready-to-sell-img-5.jpg";
+import readyToSellImg6 from "./ready-to-sell-img-6.jpg";
+import readyToSellImg7 from "./ready-to-sell-img-7.jpg";
+import readyToSellImg8 from "./ready-to-sell-img-8.jpg";
 
 export {
   house1,
@@ -88,4 +97,13 @@ export {
   subBgImage2,
   subBgImage3,
   subBgImage4,
+  videoPreviewImage,
+  readyToSellImg1,
+  readyToSellImg2,
+  readyToSellImg3,
+  readyToSellImg4,
+  readyToSellImg5,
+  readyToSellImg6,
+  readyToSellImg7,
+  readyToSellImg8,
 };

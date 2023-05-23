@@ -20,7 +20,7 @@ export const OurRecomendationSection = () => {
         <OurRecomendationSectionStyle>
             <Container>
                 <SectionTitle>Our Recommendation</SectionTitle>
-                <div className="section-content">
+                <div className="section-content-wrapper">
                     <div className="section-top-side">
                         <SectionSlogan>Featured House</SectionSlogan>
                         <div className="slider-manipulate">
@@ -31,7 +31,6 @@ export const OurRecomendationSection = () => {
                                 slideChaged={slideChaged}
                                 swiperRef={swiperRef}
                                 filterButtonNameClicked={filterButtonNameClicked}
-                    
                             />
                         </div>
                     </div>

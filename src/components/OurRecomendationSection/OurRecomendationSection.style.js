@@ -11,7 +11,7 @@ export const OurRecomendationSectionStyle = styled.section`
       }
     }
   }
-  .section-content {
+  .section-content-wrapper {
     padding-left: 30px;
     padding-right: 30px;
 
