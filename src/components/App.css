@@ -1,7 +1,8 @@
 .App .main{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 60px;
+    margin-bottom: 60px;
 
     @media (min-width: 764px) {
         gap: 120px;

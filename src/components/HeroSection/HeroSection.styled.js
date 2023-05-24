@@ -9,9 +9,11 @@ export const HeroSectionStyle = styled.section`
     flex-direction: column-reverse;
 
     align-items: center;
+    padding-left: 0;
     padding-right: 0;
 
     @media (min-width: 1200px) {
+      padding-left: 120px;
       align-items: normal;
       gap: 104px;
       flex-direction: row;
@@ -66,8 +68,7 @@ export const HeroSectionStyle = styled.section`
 
   .left-side {
     margin-top: 30px;
-    padding: 0 30px;
-
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,13 +76,12 @@ export const HeroSectionStyle = styled.section`
     max-width: 496px;
 
     @media (min-width: 768px) {
+      padding: 0 30px;
       margin-top: 50px;
-      padding: 0;
       flex-direction: row;
       align-items: normal;
       justify-content: flex-start;
       max-width: 100%;
-      padding: 0 30px;
       gap: 50px;
     }
 

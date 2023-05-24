@@ -11,12 +11,6 @@ export const HeaderStyle = styled.header`
       top: 40px;
       transform: translateX(-50%);
       overflow: visible;
-
-      padding: 0 30px;
-
-      @media (min-width: 1200px) {
-        padding: 0 120px;
-      }
     }
   }
 `;

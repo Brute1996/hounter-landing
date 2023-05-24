@@ -5,10 +5,25 @@ export const FooterWrapper = styled.footer`
 
   .container {
     display: flex;
+    flex-direction: column;
+    gap: 36px;
     justify-content: space-between;
+
+    @media (min-width: 768px) {
+      gap: 14px;
+      flex-direction: row;
+    }
   }
 
   .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+      align-items: normal;
+    }
+
     .logo {
       margin-bottom: 16px;
     }
@@ -20,7 +35,13 @@ export const FooterWrapper = styled.footer`
       color: #626687;
       opacity: 0.75;
 
-      max-width: 320px;
+      text-align: center;
+
+      @media (min-width: 768px) {
+        text-align: start;
+        max-width: 320px;
+      }
+
       margin-bottom: 24px;
     }
 
@@ -49,6 +70,16 @@ export const FooterWrapper = styled.footer`
 
   .footer-links {
     display: flex;
-    gap: 88px;
+    gap: 15px;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+      justify-content: flex-start;
+      gap: 30px;
+    }
+
+    @media (min-width: 1200px) {
+      gap: 88px;
+    }
   }
 `;

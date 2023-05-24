@@ -15,10 +15,10 @@ function App() {
       <main className="main">
         <HeroSection />
         <OurRecomendationSection />
-        <ReadyToSellSection />
-        <OurReviewSection />
+        {/* <ReadyToSellSection /> */}
+        {/* <OurReviewSection />
         <ActicleSection />
-        <SubscribeSection />
+        <SubscribeSection /> */}
       </main>
       <Footer />
     </div>
