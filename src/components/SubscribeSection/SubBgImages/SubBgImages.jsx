@@ -1,6 +1,7 @@
 import { avatar1, avatar15, avatar3, avatar5, subBgImage1, subBgImage2, subBgImage3, subBgImage4 } from "../../../images";
 import { BgImage } from "../SubBgImageTemplate/SubBgImage";
 
+
 export const SubBgImages = () => {
     return (
         <>
@@ -67,6 +68,7 @@ export const SubBgImages = () => {
                 height="55px"
                 borderRadius="50%"
                 image={subBgImage4}
-            /></>
+            />
+        </>
     )
 };

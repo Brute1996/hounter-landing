@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 
 export const EmaiInputWrapper = styled.div`
+  position: relative;
   display: flex;
   justify-content: center;
 
