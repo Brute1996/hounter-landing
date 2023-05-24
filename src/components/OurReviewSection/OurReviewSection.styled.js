@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const OurReviewSectionWrapper = styled.section`
   .container {
+    overflow-y: hidden;
     @media (min-width: 768px) {
       padding: 0;
     }

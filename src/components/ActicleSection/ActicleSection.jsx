@@ -11,7 +11,7 @@ export const ActicleSection = () => {
     return (
         <ActicleSectionWrapper>
             <Container>
-                <div className="gradient-bg"></div>
+                {/* <div className="gradient-bg"></div> */}
                 <SectionTitle>See tips and trick from our partnership</SectionTitle>
                 <SectionSlogan>Find out more about selling and buying homes</SectionSlogan>
                 <div className="more-article-link-wrapper">

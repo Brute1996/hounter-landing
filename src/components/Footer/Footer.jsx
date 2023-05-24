@@ -8,6 +8,7 @@ export const Footer = () => {
     return (
         <FooterWrapper>
             <Container>
+                {/* <div className="gradient-bg"></div> */}
                 <div className="social-media">
                     <Logo />
                     <p className="social-media-text">We provide information about properties such as houses, villas and apartments to help people find their dream home</p>

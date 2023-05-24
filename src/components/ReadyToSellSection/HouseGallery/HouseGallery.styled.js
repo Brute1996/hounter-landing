@@ -2,11 +2,12 @@ import styled from "@emotion/styled";
 import { videoPreviewImage } from "../../../images";
 
 export const HouseGalleryWrapper = styled.div`
-  width: 528px;
+  width: 100%;
   min-height: 300px;
   position: relative;
 
   @media (min-width: 768px) {
+    width: 528px;
     min-height: 459px;
   }
 
@@ -15,7 +16,7 @@ export const HouseGalleryWrapper = styled.div`
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 305px;
+    width: calc(100% - 30px);
     height: 216px;
     border-radius: 4px;
 

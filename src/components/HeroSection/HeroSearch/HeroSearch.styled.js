@@ -37,6 +37,9 @@ export const HeroSearchWrapper = styled.div`
       }
 
       @media (min-width: 1200px) {
+        width: 255px;
+      }
+      @media (min-width: 1250px) {
         width: 303px;
       }
 

@@ -5,11 +5,11 @@ export const MenuLinkList = () => {
     return (
         <MenuLinkListStyle>
             <li>
-                <a className="link-btn"
-                    href="/">About Us</a>
+                <a className="link-btn about-us"
+                    href="#!">About Us</a>
             </li>
             <li>
-                <a className="link-btn" href="/">Article</a>
+                <a className="link-btn" href="#!">Article</a>
             </li>
             <PropertyButton />
         </MenuLinkListStyle>

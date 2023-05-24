@@ -4,6 +4,7 @@ export const FooterWrapper = styled.footer`
   margin-bottom: 120px;
 
   .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -80,6 +81,38 @@ export const FooterWrapper = styled.footer`
 
     @media (min-width: 1200px) {
       gap: 88px;
+    }
+  }
+
+  .gradient-bg {
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -999;
+    background-image: radial-gradient(
+      circle,
+      #82ffe8,
+      rgba(255, 255, 255, 0) 50%
+    );
+    background-repeat: no-repeat;
+    background-position: -40px -75px;
+    opacity: 0.5;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: radial-gradient(
+        circle,
+        #c8ff82,
+        rgba(255, 255, 255, 0) 55%
+      );
+      background-repeat: no-repeat;
+      background-position: -30px 140px;
     }
   }
 `;

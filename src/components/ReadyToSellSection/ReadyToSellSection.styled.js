@@ -47,26 +47,27 @@ export const ReadyToSellSectionWrapper = styled.section`
 
   .section-text {
     margin-bottom: 16px;
+
     @media (min-width: 1200px) {
       max-width: 400px;
     }
   }
 
   .gradient-bg {
-    width: 600px;
-    height: 100%;
+    width: 100%;
+    height: 1000px;
     position: absolute;
-    top: -170px;
-    right: -200px;
+    top: -400px;
+    right: 0;
 
     z-index: -999;
     background-image: radial-gradient(
       circle,
       #ff9882,
-      rgba(255, 255, 255, 0) 55%
+      rgba(255, 255, 255, 0) 30%
     );
     background-repeat: no-repeat;
-    background-position: -40px -45px;
+    background-position: 540px -45px;
     opacity: 0.5;
 
     &::before {
@@ -77,10 +78,10 @@ export const ReadyToSellSectionWrapper = styled.section`
       background-image: radial-gradient(
         circle,
         #fffa82,
-        rgba(255, 255, 255, 0) 55%
+        rgba(255, 255, 255, 0) 30%
       );
       background-repeat: no-repeat;
-      background-position: 0 33px;
+      background-position: 540px 60px;
     }
   }
 `;

@@ -15,7 +15,7 @@ export const HeroSectionStyle = styled.section`
     @media (min-width: 1200px) {
       padding-left: 120px;
       align-items: normal;
-      gap: 104px;
+      justify-content: space-between;
       flex-direction: row;
       border-top-left-radius: 16px;
       border-top-right-radius: 16px;
@@ -95,6 +95,7 @@ export const HeroSectionStyle = styled.section`
   }
 
   .right-side {
+    overflow: hidden;
     display: flex;
     align-items: flex-end;
     width: 100%;
@@ -115,9 +116,7 @@ export const HeroSectionStyle = styled.section`
 
     @media (min-width: 1200px) {
       padding: 0 0 38px 48px;
-
-      width: 720px;
-      height: 720px;
+      max-width: 720px;
       border-radius: 0px 0px 0px 80px;
     }
   }
