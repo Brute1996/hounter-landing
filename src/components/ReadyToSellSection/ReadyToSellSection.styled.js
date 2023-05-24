@@ -67,8 +67,12 @@ export const ReadyToSellSectionWrapper = styled.section`
       rgba(255, 255, 255, 0) 30%
     );
     background-repeat: no-repeat;
-    background-position: 540px -45px;
+    background-position: -140px 355px;
     opacity: 0.5;
+
+    @media (min-width: 1200px) {
+      background-position: 540px -45px;
+    }
 
     &::before {
       content: "";
@@ -81,7 +85,11 @@ export const ReadyToSellSectionWrapper = styled.section`
         rgba(255, 255, 255, 0) 30%
       );
       background-repeat: no-repeat;
-      background-position: 540px 60px;
+      background-position: 50px 330px;
+
+      @media (min-width: 1200px) {
+        background-position: 540px 60px;
+      }
     }
   }
 `;

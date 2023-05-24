@@ -11,7 +11,7 @@ export const ReadyToSellSection = () => {
     return (
         <ReadyToSellSectionWrapper>
             <Container>
-                {/* <div className="gradient-bg"></div> */}
+                <div className="gradient-bg"></div>
                 <div className="section-left-side">
                     <SectionTitle>Ready to Sell!</SectionTitle>
                     <div className="house-info">
