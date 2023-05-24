@@ -22,12 +22,17 @@ export const FooterInfoLinkListWrapper = styled.div`
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
-    /* identical to box height */
 
     /* text-transform: capitalize; */
 
-    /* Neutral / 500 */
-
     color: #888b97;
+
+    transition: scale 200ms ease-in-out, color 200ms ease-in-out;
+
+    &:hover,
+    &:focus {
+      color: #10b981;
+      scale: 1.05;
+    }
   }
 `;

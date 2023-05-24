@@ -13,15 +13,17 @@ export const ArticleLink = ({
 }) => {
     return (
         <ArticleLinkWrapper>
-            <img className="article-image" src={articleImage} alt={articleTitle} />
-            <div className="article-info">
-                <ArticleAuthor authorAvatar={authorAvatar} authorName={authorName} />
-                <h4 className="article-title">{articleTitle}</h4>
-                <ArticleTimeToRead
-                    minutesToRead={minutesToRead}
-                    articleCreateDate={articleCreateDate}
-                />
-            </div>
+            <a href="#!">
+                <img className="article-image" src={articleImage} alt={articleTitle} />
+                <div className="article-info">
+                    <ArticleAuthor authorAvatar={authorAvatar} authorName={authorName} />
+                    <h4 className="article-title">{articleTitle}</h4>
+                    <ArticleTimeToRead
+                        minutesToRead={minutesToRead}
+                        articleCreateDate={articleCreateDate}
+                    />
+                </div>
+            </a>
         </ArticleLinkWrapper>
     )
 };

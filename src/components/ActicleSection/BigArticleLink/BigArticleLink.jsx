@@ -13,7 +13,8 @@ export const BigArticleLink = ({
 }) => {
     return (
         <BigArticleLinkWrapper>
-            <img className="article-image" src={articleImage} alt={articleTitle} />
+            <a href="#!">
+                            <img className="article-image" src={articleImage} alt={articleTitle} />
             <ArticleAuthor authorAvatar={authorAvatar} authorName={authorName} />
             <h4 className="article-title">{articleTitle}</h4>
             <p className="article-short-text">{articleShortText}</p>
@@ -21,6 +22,7 @@ export const BigArticleLink = ({
                 minutesToRead={minutesToRead}
                 articleCreateDate={articleCreateDate}
             />
+</a>
         </BigArticleLinkWrapper>
     )
 };

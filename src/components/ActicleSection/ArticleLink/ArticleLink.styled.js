@@ -1,9 +1,11 @@
 import styled from "@emotion/styled";
 
 export const ArticleLinkWrapper = styled.li`
-  display: flex;
-  align-items: center;
-  gap: 32px;
+  a {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
 
   .article-image {
     width: 200px;

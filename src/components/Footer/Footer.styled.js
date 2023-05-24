@@ -24,10 +24,26 @@ export const FooterWrapper = styled.footer`
       margin-bottom: 24px;
     }
 
+    &-icon {
+      path {
+        transition: scale 200ms ease-in-out, fill 200ms ease-in-out;
+      }
+    }
+
     &-list {
       display: flex;
       align-items: center;
       gap: 24px;
+
+      li {
+        &:hover .social-media-icon,
+        &:focus .social-media-icon {
+          path {
+            scale: 1.05;
+            fill: #10b981;
+          }
+        }
+      }
     }
   }
 
