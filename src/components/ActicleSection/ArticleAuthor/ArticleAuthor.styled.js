@@ -16,9 +16,13 @@ export const ArticleAtuhorStyle = styled.div`
 
   .article-author-name {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.57;
 
     color: #3c4563;
+
+    @media (min-width: 1200px) {
+      font-size: 14px;
+    }
   }
 `;

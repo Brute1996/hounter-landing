@@ -5,8 +5,12 @@ export const ArticleTimeToReadStyle = styled.p`
   gap: 12px;
 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
 
   color: #888b97;
+
+  @media (min-width: 1200px) {
+    font-size: 14px;
+  }
 `;

@@ -20,6 +20,18 @@ export const ActicleSectionWrapper = styled.section`
 
   .section-content {
     display: flex;
-    gap: 68px;
+    flex-direction: column-reverse;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: 768px) {
+      align-items: normal;
+      flex-direction: row;
+    }
+
+    @media (min-width: 1200px) {
+      gap: 68px;
+    }
   }
 `;

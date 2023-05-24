@@ -14,15 +14,15 @@ export const BigArticleLink = ({
     return (
         <BigArticleLinkWrapper>
             <a href="#!">
-                            <img className="article-image" src={articleImage} alt={articleTitle} />
-            <ArticleAuthor authorAvatar={authorAvatar} authorName={authorName} />
-            <h4 className="article-title">{articleTitle}</h4>
-            <p className="article-short-text">{articleShortText}</p>
-            <ArticleTimeToRead
-                minutesToRead={minutesToRead}
-                articleCreateDate={articleCreateDate}
-            />
-</a>
+                <img className="article-image" src={articleImage} alt={articleTitle} />
+                <ArticleAuthor authorAvatar={authorAvatar} authorName={authorName} />
+                <h4 className="article-title">{articleTitle}</h4>
+                <p className="article-short-text">{articleShortText}</p>
+                <ArticleTimeToRead
+                    minutesToRead={minutesToRead}
+                    articleCreateDate={articleCreateDate}
+                />
+            </a>
         </BigArticleLinkWrapper>
     )
 };
