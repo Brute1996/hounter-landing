@@ -5,7 +5,7 @@ import { GallerySlider } from "./GallerySlider/GallerySlider"
 import { HouseGalleryWrapper } from "./HouseGallery.styled"
 
 import * as basicLightbox from 'basiclightbox'
-import 'basiclightbox/dist/basicLightbox.min.css';
+
 
 export const HouseGallery = () => {
     
