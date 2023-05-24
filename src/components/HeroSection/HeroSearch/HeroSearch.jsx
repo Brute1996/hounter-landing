@@ -1,4 +1,5 @@
 import { ArrowIcon, SearchIcon } from "../../../icons";
+import { PrimaryButton } from "../../common/PrimaryButton/PrimaryButton";
 import { HeroSearchWrapper } from "./HeroSearch.styled";
 
 export const HeroSearch = () => {
@@ -11,7 +12,7 @@ export const HeroSearch = () => {
                         type="search"
                         placeholder="Search for the location you want!"
                     />
-                    <button type="button">Search <ArrowIcon className="arrow-icon" /></button>
+                    <PrimaryButton buttonType="button" gap="4px"  >Search <ArrowIcon className="arrow-icon" /></PrimaryButton>
                 </label>
             </form>
         </HeroSearchWrapper>

@@ -66,6 +66,7 @@ button {
     cursor: pointer;
     display: block;
     background-color: transparent;
+    border: none;
 }
 
 input,
