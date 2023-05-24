@@ -2,7 +2,9 @@ import styled from "@emotion/styled";
 
 export const OurReviewSectionWrapper = styled.section`
   .container {
-    padding: 0;
+    @media (min-width: 768px) {
+      padding: 0;
+    }
   }
 
   .section-title {

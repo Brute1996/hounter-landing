@@ -1,6 +1,12 @@
 import styled from "@emotion/styled";
 
 export const FooterInfoLinkListWrapper = styled.div`
+  width: 130px;
+
+  @media (min-width: 768px) {
+    width: auto;
+  }
+
   .links-title {
     font-weight: 600;
     font-size: 18px;
