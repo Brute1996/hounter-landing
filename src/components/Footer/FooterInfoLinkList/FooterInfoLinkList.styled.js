@@ -24,7 +24,7 @@ export const FooterInfoLinkListWrapper = styled.div`
     line-height: 1.28;
     /* identical to box height */
 
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 
     /* Neutral / 500 */
 

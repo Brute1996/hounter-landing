@@ -15,19 +15,6 @@ export const ActicleSectionWrapper = styled.section`
   .more-article-link-wrapper {
     display: flex;
     justify-content: center;
-  }
-
-  .more-article-link {
-    padding: 12px 16px;
-    background: #10b981;
-    border-radius: 32px;
-
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.57;
-
-    color: #ffffff;
-
     margin-bottom: 40px;
   }
 

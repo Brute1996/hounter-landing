@@ -31,20 +31,4 @@ export const ManagerContactNowWrapper = styled.div`
 
     color: #888b97;
   }
-
-  .contact-now-ref {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.57;
-    color: #ffffff;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-
-    background: #10b981;
-    border-radius: 32px;
-    padding: 12px 16px;
-  }
 `;

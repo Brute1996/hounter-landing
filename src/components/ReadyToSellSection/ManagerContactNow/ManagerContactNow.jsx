@@ -1,5 +1,6 @@
 import { Call } from "../../../icons"
 import { avatar1 } from "../../../images"
+import { PrimaryButton } from "../../common/PrimaryButton/PrimaryButton"
 import { ManagerContactNowWrapper } from "./ManagerContactNow.styled"
 
 export const UserContactNow = () => {
@@ -10,7 +11,7 @@ export const UserContactNow = () => {
                 <p className="manager-name" aria-label="manager name">Dianne Russell</p>
                 <p className="manager-position" aria-label="position" >Manager Director</p>
             </div>
-            <a className="contact-now-ref" href="tel:+1234567890"><Call/>Contact Now</a>
+            <PrimaryButton gap="16px" linkHref="tel:+1234567890"><Call/>Contact Now</PrimaryButton>
         </ManagerContactNowWrapper>
     )
 }

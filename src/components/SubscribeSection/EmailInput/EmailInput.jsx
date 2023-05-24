@@ -1,4 +1,5 @@
 import { ConvertIcon } from "../../../icons"
+import { PrimaryButton } from "../../common/PrimaryButton/PrimaryButton";
 import { EmaiInputWrapper } from "./EmaiInput.styled";
 
 export const EmailInput = () => {
@@ -22,7 +23,7 @@ export const EmailInput = () => {
                     type="email"
                     placeholder="Your email here"
                 />
-                <button type="submit">Subsribe Now</button>
+                <PrimaryButton buttonType="submit">Subsribe Now</PrimaryButton>
             </label>
         </form>
     </EmaiInputWrapper>

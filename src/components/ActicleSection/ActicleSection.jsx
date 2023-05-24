@@ -5,6 +5,7 @@ import { avatar18, bigArticleImg } from "../../images";
 import { ActicleSectionWrapper } from "./ActicleSection.styled"
 import { ArticleLinkList } from "./ArticleLinkList/ArticleLinkList";
 import { BigArticleLink } from "./BigArticleLink/BigArticleLink";
+import { PrimaryButton } from "../common/PrimaryButton/PrimaryButton";
 
 export const ActicleSection = () => {
     return (
@@ -13,7 +14,7 @@ export const ActicleSection = () => {
                 <SectionTitle>See tips and trick from our partnership</SectionTitle>
                 <SectionSlogan>Find out more about selling and buying homes</SectionSlogan>
                 <div className="more-article-link-wrapper">
-                    <a className="more-article-link" href="/">More Artikel</a>
+                    <PrimaryButton linkHref="#!">More Artikel</PrimaryButton>
                 </div>
                 <div className="section-content">
                     <ArticleLinkList />
