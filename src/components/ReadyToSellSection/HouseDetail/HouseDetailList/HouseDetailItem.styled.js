@@ -7,10 +7,14 @@ export const HouseDetailItemStyle = styled.li`
   width: calc(100% / 2);
 
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.25;
 
   text-transform: capitalize;
 
   color: #3c4563;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
 `;

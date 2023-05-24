@@ -5,7 +5,7 @@ export const PrimaryButtonStyle = styled.div`
   align-items: center;
   justify-content: center;
   z-index: 2;
-
+  font-size: 12px;
   background: #10b981;
   border-radius: 32px;
   border: none;
@@ -13,7 +13,7 @@ export const PrimaryButtonStyle = styled.div`
 
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+
   line-height: 1.57;
   color: #fff;
 
@@ -29,6 +29,7 @@ export const PrimaryButtonStyle = styled.div`
   }
 
   @media (min-width: 768px) {
+    font-size: 14px;
     padding: 13px 16px;
   }
 `;

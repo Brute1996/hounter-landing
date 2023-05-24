@@ -4,16 +4,41 @@ export const ReadyToSellSectionWrapper = styled.section`
   .container {
     display: flex;
     justify-content: space-between;
-    padding-right: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    @media (min-width: 1200px) {
+      flex-direction: row;
+      padding-right: 0;
+      align-items: normal;
+      gap: 0;
+    }
+  }
+
+  .section-left-side {
+    width: 100%;
+    @media (min-width: 1200px) {
+      width: auto;
+    }
   }
 
   .house-info {
-    max-width: 524px;
-    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 1200px) {
+      align-items: normal;
+      max-width: 524px;
+      padding-left: 40px;
+    }
   }
 
   .section-title {
-    margin-top: 28px;
+    @media (min-width: 1200px) {
+      margin-top: 28px;
+    }
   }
 
   .section-slogan {
@@ -21,7 +46,9 @@ export const ReadyToSellSectionWrapper = styled.section`
   }
 
   .section-text {
-    max-width: 400px;
     margin-bottom: 16px;
+    @media (min-width: 1200px) {
+      max-width: 400px;
+    }
   }
 `;

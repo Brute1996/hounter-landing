@@ -8,12 +8,16 @@ export const HouseDetailWrapper = styled.div`
     font-weight: 600;
     font-size: 16px;
     line-height: 1.75;
-
+    text-align: center;
     color: #1b1c57;
 
     opacity: 0.75;
 
     margin-bottom: 16px;
+
+    @media (min-width: 1200px) {
+      text-align: start;
+    }
   }
 
   .house-detail-list {

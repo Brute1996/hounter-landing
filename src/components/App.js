@@ -15,7 +15,7 @@ function App() {
       <main className="main">
         <HeroSection />
         <OurRecomendationSection />
-        {/* /<ReadyToSellSection />  */}
+        <ReadyToSellSection />
         <OurReviewSection />
         <ActicleSection />
         {/* <SubscribeSection /> */}
