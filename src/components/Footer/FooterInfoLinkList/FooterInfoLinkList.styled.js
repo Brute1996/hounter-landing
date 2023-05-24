@@ -35,10 +35,12 @@ export const FooterInfoLinkListWrapper = styled.div`
 
     transition: scale 200ms ease-in-out, color 200ms ease-in-out;
 
-    &:hover,
-    &:focus {
-      color: #10b981;
-      scale: 1.05;
+    a {
+      &:hover,
+      &:focus {
+        color: #10b981;
+        scale: 1.05;
+      }
     }
   }
 `;
