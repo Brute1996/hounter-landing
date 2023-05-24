@@ -4,6 +4,16 @@ export const BigArticleLinkWrapper = styled.div`
   margin-top: 2px;
   max-width: 560px;
 
+  &:hover .time-to-read,
+  &:focus .time-to-read {
+    svg {
+      path {
+        fill: #10b981;
+      }
+    }
+    color: #10b981;
+  }
+
   .article-image {
     width: 560px;
     height: 280px;

@@ -3,7 +3,7 @@ import { ArticleTimeToReadStyle } from "./ArticleTimeToRead.styled"
 
 export const ArticleTimeToRead = ({minutesToRead, articleCreateDate}) => {
     return (
-        <ArticleTimeToReadStyle>
+        <ArticleTimeToReadStyle className="time-to-read">
 
            {<ClockIcon />} {`${minutesToRead} min read | ${articleCreateDate}`}
         </ArticleTimeToReadStyle>

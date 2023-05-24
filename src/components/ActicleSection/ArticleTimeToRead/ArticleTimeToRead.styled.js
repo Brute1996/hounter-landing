@@ -10,6 +10,14 @@ export const ArticleTimeToReadStyle = styled.p`
 
   color: #888b97;
 
+  transition: color 300ms ease-in-out;
+
+  svg {
+    path {
+      transition: fill 300ms ease-in-out;
+    }
+  }
+
   @media (min-width: 1200px) {
     font-size: 14px;
   }

@@ -45,4 +45,14 @@ export const ArticleLinkWrapper = styled.li`
       font-size: 18px;
     }
   }
+
+  &:hover .time-to-read,
+  &:focus .time-to-read {
+    svg {
+      path {
+        fill: #10b981;
+      }
+    }
+    color: #10b981;
+  }
 `;
