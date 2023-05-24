@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const ReadyToSellSectionWrapper = styled.section`
   .container {
+    position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -10,7 +11,6 @@ export const ReadyToSellSectionWrapper = styled.section`
 
     @media (min-width: 1200px) {
       flex-direction: row;
-      padding-right: 0;
       align-items: normal;
       gap: 0;
     }
@@ -49,6 +49,38 @@ export const ReadyToSellSectionWrapper = styled.section`
     margin-bottom: 16px;
     @media (min-width: 1200px) {
       max-width: 400px;
+    }
+  }
+
+  .gradient-bg {
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    top: -170px;
+    right: -200px;
+
+    z-index: -999;
+    background-image: radial-gradient(
+      circle,
+      #ff9882,
+      rgba(255, 255, 255, 0) 55%
+    );
+    background-repeat: no-repeat;
+    background-position: -40px -45px;
+    opacity: 0.5;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: radial-gradient(
+        circle,
+        #fffa82,
+        rgba(255, 255, 255, 0) 55%
+      );
+      background-repeat: no-repeat;
+      background-position: 0 33px;
     }
   }
 `;

@@ -3,7 +3,6 @@ import styled from "@emotion/styled";
 export const ContainerStyle = styled.div`
   /* outline: 1px solid red; */
   margin: 0 auto;
-  overflow-x: hidden;
   padding: 0 15px;
 
   @media (min-width: 768px) {
