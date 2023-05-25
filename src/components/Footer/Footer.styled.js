@@ -1,14 +1,13 @@
 import styled from "@emotion/styled";
 
 export const FooterWrapper = styled.footer`
-  margin-bottom: 120px;
-
   .container {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 36px;
     justify-content: space-between;
+    padding-bottom: 120px;
 
     @media (min-width: 768px) {
       gap: 14px;
@@ -85,21 +84,29 @@ export const FooterWrapper = styled.footer`
   }
 
   .gradient-bg {
-    width: 600px;
-    height: 100%;
+    width: 100%;
+    height: 1000px;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
 
     z-index: -999;
     background-image: radial-gradient(
       circle,
-      #82ffe8,
-      rgba(255, 255, 255, 0) 50%
+      #82bbff,
+      rgba(255, 255, 255, 0) 35%
     );
     background-repeat: no-repeat;
-    background-position: -40px -75px;
+    background-position: 150px 375px;
     opacity: 0.5;
+
+    @media (min-width: 768px) {
+      background-position: 400px 375px;
+    }
+
+    @media (min-width: 1200px) {
+      background-position: 550px 375px;
+    }
 
     &::before {
       content: "";
@@ -108,11 +115,19 @@ export const FooterWrapper = styled.footer`
       height: 100%;
       background-image: radial-gradient(
         circle,
-        #c8ff82,
-        rgba(255, 255, 255, 0) 55%
+        #b9ff82,
+        rgba(255, 255, 255, 0) 35%
       );
       background-repeat: no-repeat;
-      background-position: -30px 140px;
+      background-position: 100px 440px;
+
+      @media (min-width: 768px) {
+        background-position: 200px 440px;
+      }
+
+      @media (min-width: 1200px) {
+        background-position: 400px 440px;
+      }
     }
   }
 `;
