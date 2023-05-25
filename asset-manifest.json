@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hounter-landing/static/css/main.422efac5.css",
-    "main.js": "/hounter-landing/static/js/main.ae78fdda.js",
+    "main.js": "/hounter-landing/static/js/main.79863337.js",
     "static/media/house6.jpg": "/hounter-landing/static/media/house6.73f006f9bc41f8338a46.jpg",
     "static/media/img-video-preview.jpg": "/hounter-landing/static/media/img-video-preview.0f849c8c88919b114158.jpg",
     "static/media/tripadvisor.svg": "/hounter-landing/static/media/tripadvisor.1030b319589770a7dd68452217755f80.svg",
@@ -64,10 +64,10 @@
     "static/media/email-fill.svg": "/hounter-landing/static/media/email-fill.d32b3c1045ecc4cbb4e984fc2b0105ac.svg",
     "static/media/player-start.svg": "/hounter-landing/static/media/player-start.732391a7dc8aca28f8a0206f67a95722.svg",
     "main.422efac5.css.map": "/hounter-landing/static/css/main.422efac5.css.map",
-    "main.ae78fdda.js.map": "/hounter-landing/static/js/main.ae78fdda.js.map"
+    "main.79863337.js.map": "/hounter-landing/static/js/main.79863337.js.map"
   },
   "entrypoints": [
     "static/css/main.422efac5.css",
-    "static/js/main.ae78fdda.js"
+    "static/js/main.79863337.js"
   ]
 }
