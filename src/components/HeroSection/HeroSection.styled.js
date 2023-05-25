@@ -22,21 +22,29 @@ export const HeroSectionStyle = styled.section`
     }
 
     .gradient-bg {
-      width: 541px;
-      height: 523px;
+      width: 100%;
+      height: 1000px;
       position: absolute;
-      left: -150px;
-      top: 45%;
+      left: 0;
+      top: 0;
 
       z-index: -999;
       background-image: radial-gradient(
         circle,
         #82ffd2,
-        rgba(255, 255, 255, 0) 50%
+        rgba(255, 255, 255, 0) 30%
       );
       background-repeat: no-repeat;
-      background-position: 100px -30px;
+      background-position: -150px 250px;
       opacity: 0.5;
+
+      @media (min-width: 768px) {
+        background-position: -350px 250px;
+      }
+
+      @media (min-width: 1200px) {
+        background-position: -450px -400px;
+      }
 
       &::before {
         content: "";
@@ -46,22 +54,18 @@ export const HeroSectionStyle = styled.section`
         background-image: radial-gradient(
           circle,
           #82f7ff,
-          rgba(255, 255, 255, 0) 50%
+          rgba(255, 255, 255, 0) 30%
         );
         background-repeat: no-repeat;
-        background-position: -100px 0;
-      }
+        background-position: -320px 350px;
 
-      @media (min-width: 768px) {
-        width: 741px;
-        height: 523px;
-        left: -35%;
-        top: 50%;
-      }
+        @media (min-width: 768px) {
+          background-position: -500px 300px;
+        }
 
-      @media (min-width: 1200px) {
-        left: -10%;
-        top: -20%;
+        @media (min-width: 1200px) {
+          background-position: -700px -320px;
+        }
       }
     }
   }

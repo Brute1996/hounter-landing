@@ -10,7 +10,7 @@ export const HeroSection = () => {
     return (
         <HeroSectionStyle>
             <Container>
-                {/* <div className="gradient-bg"></div> */}
+                <div className="gradient-bg"></div>
                 <div className="left-side">
                     <HeroTitle />
                     <div>
