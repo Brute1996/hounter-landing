@@ -9,10 +9,10 @@ export const HeroSearchWrapper = styled.div`
     label {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      gap: 2px;
       border: 1px solid #e0e3eb;
       border-radius: 32px;
-      padding: 4px;
+      padding: 6px;
 
       transition: border 0.5s ease-in-out;
 
