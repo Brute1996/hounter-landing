@@ -17,8 +17,11 @@ export const HeroSectionStyle = styled.section`
       align-items: normal;
       justify-content: space-between;
       flex-direction: row;
-      border-top-left-radius: 16px;
-      border-top-right-radius: 16px;
+    }
+
+    @media (min-width: 1441px) {
+      justify-content: center;
+      gap: 130px;
     }
 
     .gradient-bg {
@@ -122,10 +125,6 @@ export const HeroSectionStyle = styled.section`
       padding: 0 0 38px 48px;
       max-width: 720px;
       border-radius: 0px 0px 0px 80px;
-    }
-
-    @media (min-width: 1440px) {
-      max-width: 920px;
     }
   }
 `;

@@ -22,7 +22,7 @@ export const SubscribeSectionWrapper = styled.section`
       height: 312px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1441px) {
       max-width: 1440px;
     }
   }

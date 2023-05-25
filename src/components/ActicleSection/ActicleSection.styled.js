@@ -38,7 +38,7 @@ export const ActicleSectionWrapper = styled.section`
       gap: 68px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1441px) {
       justify-content: space-around;
     }
   }

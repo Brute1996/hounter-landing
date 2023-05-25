@@ -15,7 +15,7 @@ export const ReadyToSellSectionWrapper = styled.section`
       gap: 0;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1441px) {
       justify-content: space-around;
     }
   }

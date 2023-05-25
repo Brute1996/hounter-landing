@@ -9,6 +9,10 @@ export const DesktopMenuStyle = styled.nav`
     align-items: center;
   }
 
+  @media (min-width: 1441px) {
+    justify-content: space-around;
+  }
+
   .buttons-wrapper {
     display: flex;
     gap: 56px;

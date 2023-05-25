@@ -14,7 +14,7 @@ export const FooterWrapper = styled.footer`
       flex-direction: row;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1441px) {
       justify-content: space-around;
     }
   }

@@ -40,7 +40,7 @@ export const OurRecomendationSectionStyle = styled.section`
       gap: 137px;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1441px) {
       justify-content: space-around;
     }
   }
