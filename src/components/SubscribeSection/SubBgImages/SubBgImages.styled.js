@@ -24,6 +24,8 @@ export const SubBgImagesWrapper = styled.div`
     background-size: cover;
     background-position: 50% 50%;
     border: 2px solid #fff;
+
+    animation: imagesAnimation 8000ms infinite;
   }
 
   .bg-image-1 {
@@ -146,5 +148,19 @@ export const SubBgImagesWrapper = styled.div`
 
     border-radius: 24px;
     background-image: url(${subBgImage4});
+  }
+
+  @keyframes imagesAnimation {
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(15px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
   }
 `;
