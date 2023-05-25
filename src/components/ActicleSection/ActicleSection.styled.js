@@ -40,21 +40,29 @@ export const ActicleSectionWrapper = styled.section`
   }
 
   .gradient-bg {
-    width: 600px;
-    height: 100%;
+    width: 100%;
+    height: 1000px;
     position: absolute;
-    top: -150px;
-    left: -150px;
+    top: -200px;
+    left: 0;
 
     z-index: -999;
     background-image: radial-gradient(
       circle,
       #82ffe8,
-      rgba(255, 255, 255, 0) 50%
+      rgba(255, 255, 255, 0) 30%
     );
     background-repeat: no-repeat;
-    background-position: -40px -75px;
+    background-position: -250px -175px;
     opacity: 0.5;
+
+    @media (min-width: 768px) {
+      background-position: -450px -175px;
+    }
+
+    @media (min-width: 1200px) {
+      background-position: -580px -175px;
+    }
 
     &::before {
       content: "";
@@ -64,10 +72,18 @@ export const ActicleSectionWrapper = styled.section`
       background-image: radial-gradient(
         circle,
         #c8ff82,
-        rgba(255, 255, 255, 0) 55%
+        rgba(255, 255, 255, 0) 35%
       );
       background-repeat: no-repeat;
-      background-position: -30px 140px;
+      background-position: -200px 90px;
+
+      @media (min-width: 768px) {
+        background-position: -450px 90px;
+      }
+
+      @media (min-width: 1200px) {
+        background-position: -600px 90px;
+      }
     }
   }
 `;

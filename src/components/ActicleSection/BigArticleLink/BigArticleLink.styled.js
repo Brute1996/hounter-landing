@@ -4,6 +4,16 @@ export const BigArticleLinkWrapper = styled.div`
   margin-top: 2px;
   max-width: 560px;
 
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+      align-items: normal;
+    }
+  }
+
   &:hover .time-to-read,
   &:focus .time-to-read {
     svg {
@@ -15,11 +25,21 @@ export const BigArticleLinkWrapper = styled.div`
   }
 
   .article-image {
-    width: 560px;
-    height: 280px;
+    width: 300px;
+    height: 180px;
     border-radius: 16px;
 
     margin-bottom: 24px;
+
+    @media (min-width: 768px) {
+      width: 460px;
+      height: 280px;
+    }
+
+    @media (min-width: 1200px) {
+      width: 560px;
+      height: 280px;
+    }
   }
 
   .article-title {
