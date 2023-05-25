@@ -25,6 +25,13 @@ export const MenuLinkListStyle = styled.ul`
     font-size: 14px;
     line-height: 1.28;
 
+    transition: background-color 300ms ease-in-out;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
     &.about-us {
       @media (min-width: 1200px) and (max-width: 1250px) {
         color: #1b1c57;

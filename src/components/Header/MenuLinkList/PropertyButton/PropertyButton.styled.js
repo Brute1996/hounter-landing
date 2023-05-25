@@ -20,9 +20,16 @@ export const PropertyButtonWrapper = styled.li`
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 32px;
     padding: 8px 16px;
+    transition: background-color 300ms ease-in-out;
 
-    transition: border-bottom-left-radius 0.2s ease-in-out,
-      border-bottom-right-radius 0.2s ease-in-out;
+    &:hover,
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    transition: border-bottom-left-radius 200ms ease-in-out,
+      border-bottom-right-radius 200ms ease-in-out,
+      background-color 300ms ease-in-out;
 
     .property-arrow-icon {
       transition: transform 0.2s ease-in-out;
@@ -33,6 +40,7 @@ export const PropertyButtonWrapper = styled.li`
     border-bottom: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    background-color: rgba(0, 0, 0, 0.2);
 
     .property-arrow-icon {
       transform: rotate(180deg);
@@ -46,7 +54,7 @@ export const PropertyButtonWrapper = styled.li`
     color: #f0f3fd;
     width: 100%;
     padding: 8px 16px 16px;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-top: 0;
     border-bottom-left-radius: 32px;
@@ -69,6 +77,10 @@ export const PropertyButtonWrapper = styled.li`
       @media (min-width: 768px) {
         position: absolute;
       }
+    }
+
+    &-link {
+      width: 100%;
     }
 
     ul {

@@ -9,10 +9,10 @@ export const ContainerStyle = styled.div`
   @media (min-width: 768px) {
     padding: 0 30px;
     width: 100%;
-    max-width: 1440px;
   }
 
   @media (min-width: 1200px) {
+    max-width: 1440px;
     padding: 0 120px;
   }
 `;
