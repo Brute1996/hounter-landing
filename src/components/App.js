@@ -7,6 +7,7 @@ import { OurReviewSection } from "./OurReviewSection/OurReviewSection";
 import { ActicleSection } from "./ActicleSection/ActicleSection";
 import { SubscribeSection } from "./SubscribeSection/SubscribeSection";
 import { Footer } from "./Footer/Footer";
+import { ScrollUpButton } from "./ScrollUpButton/ScrollUpButton";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <SubscribeSection />
       </main>
       <Footer />
+      <ScrollUpButton />
     </div>
   );
 }
