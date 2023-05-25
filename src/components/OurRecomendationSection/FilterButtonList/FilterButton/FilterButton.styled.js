@@ -16,6 +16,13 @@ export const FilterButtonStyle = styled.button`
 
   color: #888b97;
 
+  transition: background-color 200ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(209, 250, 229, 0.6);
+  }
+
   &.active {
     color: #10b981;
     background: #d1fae5;

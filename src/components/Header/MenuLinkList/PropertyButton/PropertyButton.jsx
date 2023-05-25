@@ -9,18 +9,14 @@ export const PropertyButton = () => {
     const [isDropDownActive, setIsDropDownActive] = useState(false);
 
     const dropDownMenuRef = useRef(null)
-    const propertyBtnRef= useRef(null)    
-
 
     useEffect(() => {
         const handleClickOutside = (e) => {
-           
-        
-            if (dropDownMenuRef.current !== e.target && propertyBtnRef.current !== e.target) {
+            if (!dropDownMenuRef.current.contains(e.target)) {
                 setIsDropDownActive(false)
             }
  
-    }
+        };
 
     document.addEventListener('mousedown', handleClickOutside);
 
@@ -30,24 +26,22 @@ export const PropertyButton = () => {
   }, []);
 
     return (
-        <PropertyButtonWrapper  ref={dropDownMenuRef}>
+        <PropertyButtonWrapper ref={dropDownMenuRef}>
             <button
-                ref={propertyBtnRef}
                 type="button"
                 onClick={() => setIsDropDownActive(!isDropDownActive)}
                 className={
-                    `property-button ${isDropDownActive && "active"}`}>
+                    `property-button ${isDropDownActive ? "active" : ""}`}>
                 Property
                 <PropertyArowIcon className="property-arrow-icon" />
             </button>
             <div
-                ref={dropDownMenuRef}
                 className={
                 `property-dropdown-menu ${isDropDownActive && "active"}`}>
                 <ul>
-                    <li><a className="property-dropdown-menu-link" href="#!">House</a></li>
-                    <li><a className="property-dropdown-menu-link" href="#!">Villa</a></li>
-                    <li><a  className="property-dropdown-menu-link"href="#!">Apartment</a></li>
+                    <li><a onClick={()=> setIsDropDownActive(false)} className="property-dropdown-menu-link" href="#!">House</a></li>
+                    <li><a onClick={()=> setIsDropDownActive(false)} className="property-dropdown-menu-link" href="#!">Villa</a></li>
+                    <li><a onClick={()=> setIsDropDownActive(false)}  className="property-dropdown-menu-link"href="#!">Apartment</a></li>
                 </ul>
             </div>
         </PropertyButtonWrapper>
