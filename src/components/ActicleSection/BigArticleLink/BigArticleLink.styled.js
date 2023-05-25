@@ -37,7 +37,7 @@ export const BigArticleLinkWrapper = styled.div`
     }
 
     @media (min-width: 1200px) {
-      width: 560px;
+      width: 100%;
       height: 280px;
     }
   }

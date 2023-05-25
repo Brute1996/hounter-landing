@@ -13,6 +13,10 @@ export const FooterWrapper = styled.footer`
       gap: 14px;
       flex-direction: row;
     }
+
+    @media (min-width: 1440px) {
+      justify-content: space-around;
+    }
   }
 
   .social-media {

@@ -37,6 +37,10 @@ export const ActicleSectionWrapper = styled.section`
     @media (min-width: 1200px) {
       gap: 68px;
     }
+
+    @media (min-width: 1440px) {
+      justify-content: space-around;
+    }
   }
 
   .gradient-bg {

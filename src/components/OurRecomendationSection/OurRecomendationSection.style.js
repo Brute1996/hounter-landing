@@ -39,6 +39,10 @@ export const OurRecomendationSectionStyle = styled.section`
       justify-content: flex-start;
       gap: 137px;
     }
+
+    @media (min-width: 1440px) {
+      justify-content: space-around;
+    }
   }
 
   .slider-manipulate {

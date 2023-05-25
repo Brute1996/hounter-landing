@@ -14,6 +14,10 @@ export const ReadyToSellSectionWrapper = styled.section`
       align-items: normal;
       gap: 0;
     }
+
+    @media (min-width: 1440px) {
+      justify-content: space-around;
+    }
   }
 
   .section-left-side {

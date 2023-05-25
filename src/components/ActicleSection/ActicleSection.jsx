@@ -15,7 +15,7 @@ export const ActicleSection = () => {
                 <SectionTitle>See tips and trick from our partnership</SectionTitle>
                 <SectionSlogan>Find out more about selling and buying homes</SectionSlogan>
                 <div className="more-article-link-wrapper">
-                    <PrimaryButton linkHref="#!">More Artikel</PrimaryButton>
+                    <PrimaryButton linkHref="#!">More Articles</PrimaryButton>
                 </div>
                 <div className="section-content">
                     <ArticleLinkList />

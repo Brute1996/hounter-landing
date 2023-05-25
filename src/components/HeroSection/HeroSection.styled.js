@@ -123,5 +123,9 @@ export const HeroSectionStyle = styled.section`
       max-width: 720px;
       border-radius: 0px 0px 0px 80px;
     }
+
+    @media (min-width: 1440px) {
+      max-width: 920px;
+    }
   }
 `;

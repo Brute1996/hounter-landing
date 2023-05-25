@@ -7,12 +7,13 @@ export const BurgerMenuStyle = styled.div`
   left: 0;
   width: 100%;
   height: calc(100% - 48px);
-  z-index: 999;
+  z-index: 99999;
   overflow-y: scroll;
+  padding-bottom: 30px;
 
   transition: top 0.5s ease-in-out;
 
-  padding: 32px 0;
+  padding: 32px 0 150px 0;
   display: flex;
   flex-direction: column;
   gap: 16px;

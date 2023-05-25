@@ -24,7 +24,7 @@ export const FooterInfoLinkListWrapper = styled.div`
     gap: 18px;
   }
 
-  .link {
+  .link-item {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
@@ -33,9 +33,9 @@ export const FooterInfoLinkListWrapper = styled.div`
 
     color: #888b97;
 
-    transition: scale 200ms ease-in-out, color 200ms ease-in-out;
-
     a {
+      transition: scale 200ms ease-in-out, color 200ms ease-in-out;
+
       &:hover,
       &:focus {
         color: #10b981;
