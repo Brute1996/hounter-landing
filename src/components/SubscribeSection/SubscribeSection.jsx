@@ -8,11 +8,13 @@ export const SubscribeSection = () => {
     return (
         <SubscribeSectionWrapper>
             <Container>
-                <SubBgImages/>
-                <SectionSlogan>
-                    Subscribe For More Info and update from Hounter
-                </SectionSlogan>
-                <EmailInput />
+                <SubBgImages />
+                <div className="section-content">
+                    <SectionSlogan>
+                        Subscribe For More Info and update from Hounter
+                    </SectionSlogan>
+                    <EmailInput />
+                </div>
             </Container>
         </SubscribeSectionWrapper>
     )

@@ -1,74 +1,20 @@
-import { avatar1, avatar15, avatar3, avatar5, subBgImage1, subBgImage2, subBgImage3, subBgImage4 } from "../../../images";
-import { BgImage } from "../SubBgImageTemplate/SubBgImage";
+
+import { SubBgImagesWrapper } from "./SubBgImages.styled";
 
 
 export const SubBgImages = () => {
+
+
     return (
-        <>
-            <BgImage
-                top="38px"
-                left="44px"
-                width="81px"
-                height="81px"
-                borderRadius="24px"
-                image={subBgImage1}
-            />
-            <BgImage
-                top="71px"
-                left="204px"
-                width="36px"
-                height="36px"
-                borderRadius="50%"
-                image={avatar3}
-            />
-            <BgImage
-                top="173px"
-                left="67px"
-                width="36px"
-                height="36px"
-                borderRadius="50%"
-                image={avatar1}
-            />
-            <BgImage
-                top="178px"
-                left="195px"
-                width="54px"
-                height="54px"
-                borderRadius="24px"
-                image={subBgImage2}
-            />
-            <BgImage
-                top="44px"
-                right="200px"
-                width="70px"
-                height="70px"
-                borderRadius="24px"
-                image={subBgImage3}
-            />
-            <BgImage
-                top="107px"
-                right="82px"
-                width="36px"
-                height="36px"
-                borderRadius="50%"
-                image={avatar5}
-            />
-            <BgImage
-                top="143px"
-                right="200px"
-                width="36px"
-                height="36px"
-                borderRadius="50%"
-                image={avatar15}
-            />
-            <BgImage
-                top="197px"
-                right="73px"
-                width="55px"
-                height="55px"
-                borderRadius="50%"
-                image={subBgImage4}
-            />
-        </>
+        <SubBgImagesWrapper>
+            <div className="def-image-style bg-image-1"></div>
+            <div className="def-image-style bg-image-2"></div>
+            <div className="def-image-style bg-image-3"></div>
+            <div className="def-image-style bg-image-4"></div>
+            <div className="def-image-style bg-image-5"></div>
+            <div className="def-image-style bg-image-6"></div>
+            <div className="def-image-style bg-image-7"></div>
+            <div className="def-image-style bg-image-8"></div>
+        </SubBgImagesWrapper>
     )
 };
