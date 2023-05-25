@@ -16,6 +16,10 @@ export const HeroSearchWrapper = styled.div`
 
       transition: border 0.5s ease-in-out;
 
+      &:focus-within:not(:focus-within .primary-button) {
+        border: 1px solid #f59e0b;
+      }
+
       @media (min-width: 768px) {
         gap: 16px;
         padding: 4px 4px 4px 24px;
@@ -47,13 +51,39 @@ export const HeroSearchWrapper = styled.div`
         outline: none;
       }
     }
+  }
 
-    .primary-button {
-      .arrow-icon {
-        width: 24px;
-        height: 24px;
-        rotate: -90deg;
-      }
+  .primary-button {
+    .arrow-icon {
+      width: 24px;
+      height: 24px;
+      transform: rotate(-90deg);
+    }
+  }
+
+  .animate-icon {
+    animation: searchIconAmination 500ms;
+  }
+
+  @keyframes searchIconAmination {
+    0% {
+      transform: translateY(0%);
+    }
+
+    40% {
+      transform: translateY(-35%);
+    }
+
+    50% {
+      transform: translateY(-10%);
+    }
+
+    80% {
+      transform: translateY(20%);
+    }
+
+    100% {
+      transform: translateY(0%);
     }
   }
 `;
